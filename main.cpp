@@ -9,7 +9,7 @@
 
 int main(int argc, char** argv)
 {
-  Pointer<int> p(new int);
+  Pointer<int> p(new int); // scope test
   {
     Pointer<int> p2 = p;
     *p2 = 3;
